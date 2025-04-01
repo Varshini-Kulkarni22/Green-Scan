@@ -1,7 +1,7 @@
 
-# Eternal-Coders_AI14 (AI crop disease prediction and management)
+# Green Scan (AI crop disease prediction and management)
 
-Eternal-Coders_AI14 (AI crop disease prediction and management) is a plant disease detection application that leverages deep learning techniques. The application uses TensorFlow's MobileNetV2 model to identify plant diseases from leaf images. It also integrates with MongoDB for data storage.
+Green Scan (AI crop disease prediction and management) is a plant disease detection application that leverages deep learning techniques. The application uses TensorFlow's MobileNetV2 model to identify plant diseases from leaf images. It also integrates with MongoDB for data storage.
 
 ## Features
 - Upload leaf images to detect plant diseases.
@@ -12,21 +12,6 @@ Eternal-Coders_AI14 (AI crop disease prediction and management) is a plant disea
 ## Prerequisites
 - Python 3.x
 - MongoDB
-
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/Yashwanth1304/Eternal-Coders_AI14.git
-    cd Eternal-Coders_AI14
-    ```
-
-2. Install the required dependencies:
-    ```bash
-    pip install tensorflow flask Pillow opencv-python-headless numpy pymongo
-    ```
-
-3. Ensure MongoDB is running on your system.
 
 ## Usage
 
@@ -39,7 +24,7 @@ Eternal-Coders_AI14 (AI crop disease prediction and management) is a plant disea
 
 ## Project Structure
 ```
-Eternal-Coders_AI14/
+Green-Scan/
 │   app.py                    # Main application file
 │   model_development.ipynb   # Jupyter notebook for model development
 │   requirements.txt          # List of dependencies
@@ -60,8 +45,6 @@ Eternal-Coders_AI14/
 - NumPy
 - PyMongo
 
-## Acknowledgements
-This project is developed by our team Eternal Coders as part of Hackathon. Special thanks to the team for their dedication.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
